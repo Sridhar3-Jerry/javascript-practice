@@ -160,14 +160,14 @@
 
 
 // 13.You have an array of integers. Write a function that returns the count of the even numbers in the array.
-let d=[10,11,12,13,15,16,17,20];
-let sum2=0;
-function sumOfEven(){
-    for(i=0;i<=d.length-1;i++){
-        if(d[i]%2==0){
-            sum2+=d[i];
-        }
-    }
-    return sum2;
-}
-console.log(sumOfEven());
+// let d=[10,11,12,13,15,16,17,20];
+// let sum2=0;
+// function sumOfEven(){
+//     for(i=0;i<=d.length-1;i++){
+//         if(d[i]%2==0){
+//             sum2+=d[i];
+//         }
+//     }
+//     return sum2;
+// }
+// console.log(sumOfEven());
