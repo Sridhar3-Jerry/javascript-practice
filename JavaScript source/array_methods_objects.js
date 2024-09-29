@@ -90,15 +90,14 @@
 
 // let cars = [
 //     { brand: "Tata", model: "Nano" },
-//     { brand: "Honda", model: "Civic" }
+//     { brand: "Honda", model: "Civic" },
+//     { brand: "Mahendra", model: "Thor" },
+//     { brand: "BMW", model: "X2" }
 //       ];
+// let a=2002;
 // for(i=0;i<=cars.length-1;i++){
-//     if(i<1){
-//         cars[i].year=2009;
-//     }
-//     else{
-//         cars[i].year=2021;
-//     }
+//     a=a+3;
+//     cars[i].year=a;
 // }
 // console.log(cars);
 
@@ -121,6 +120,8 @@
 // let   products = [
 //           { name: "Laptop", price: 800 },
 //          { name: "Phone", price: 500 },
+//          { name: "Ipad", price: 700 },
+//          { name: "Tab", price: 900 }
 //     ];
 //     let sum=0;
 // for(i=0;i<=products.length-1;i++){
@@ -142,10 +143,15 @@
 //    ]
 //    Output:
 //    [ 'Amar', 'Anthony' ]
+
+
 // let students = [
 //       { name: "Amar", grade: "A" },
 //       { name: "Akbar", grade: "B" },
-//       { name: "Anthony", grade: "A" },
+//       { name: "Sri", grade: "A" },
+//       { name: "Stephen", grade: "B" },
+//       { name: "Janu", grade: "C" }
+
 //     ];
 // let std="";
 // let d=[];

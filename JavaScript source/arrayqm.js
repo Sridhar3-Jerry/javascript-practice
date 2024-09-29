@@ -24,7 +24,8 @@
 
 
 
-// 4.Given the array soldiers = [120, 300, 250, 180, 150], where each element represents the number of soldiers assigned to different regions, find the region with the highest number of soldiers.
+
+// 3.Given the array soldiers = [120, 300, 250, 180, 150], where each element represents the number of soldiers assigned to different regions, find the region with the highest number of soldiers.
 // let soldiers = [120, 300, 450, 180, 150];
 // let s=soldiers[0];
 // for(i=0;i<=soldiers.length-1;i++){
@@ -39,7 +40,7 @@
 
 
 
-// 5.Given the array populations = [50, 60, 70, 80, 90], where each element represents the population of an Indian state over the last 5 years, calculate the average population.
+// 4.Given the array populations = [50, 60, 70, 80, 90], where each element represents the population of an Indian state over the last 5 years, calculate the average population.
 // let populations = [50, 60, 70, 80, 90];
 // let sum=0;
 // let a=0;
@@ -49,6 +50,17 @@
 // }
 // console.log(sum);
 
+
+
+// Given the array water_levels = [30, 50, 20, 40, 60], where each element represents the current water level in a tank, find the tank with the lowest water level.
+// let water_levels = [30, 50, 20, 40, 60];
+// let a=water_levels[0];
+// for(i=0;i<=water_levels.length-1;i++){
+//     if(water_levels[i]<a){
+//         a=water_levels[i]
+//     }
+// }
+// console.log(a);
 
 
 //6.Given the array days_until_festival = [30, 15, 45, 10, 25], where each element represents the number of days left until an important festival, find the closest upcoming festival.
