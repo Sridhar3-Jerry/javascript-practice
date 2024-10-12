@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">Name</h1>
+    <button onclick="update(event)" id="sri">Sri</button>
+    <button onclick="update(event)" id="stephen">Stephen</button>
+    <button onclick="update(event)" id="sridhar">Sridhar</button>
+
+    <script>
+        var h1=document.getElementById("h1")
+        // var sri=document.getElementById("sri");
+        // var stephen=document.getElementById("stephen");
+        // var sridhar=document.getElementById("sridhar");
+
+        function update(event){
+            // h1.textContent=sri.textContent;
+            // h1.textContent=stephen.textContent;
+            // h1.textContent=sridhar.textContent;
+            h1.textContent=event.target.textContent;
+            
+        }
+    </script>
+
+</body>
+</html>

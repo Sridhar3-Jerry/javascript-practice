@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="update()">add</button>
+    <div id="result"></div>
+    <button onclick="bgcolor()" id="bt">Change</button>
+
+    <script>
+        var result=document.getElementById("result");
+
+        function update(){
+            var listitem=document.createElement("h1");
+            listitem.textContent="Hello";
+            result.append(listitem);
+            var bt=document.getElementId("bt")
+        }
+        function bgcolor(){
+            bt.style.backgroundColor="red"
+        }
+    </script>
+</body>
+</html>

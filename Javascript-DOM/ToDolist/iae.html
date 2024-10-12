@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input">
+    <button onclick="add()"> Add </button>
+    <ul id="ul-con">
+        <li>
+            Hello
+            <button onclick="deletei(event)">delete</button>
+        </li>
+    </ul>
+
+<script>
+  var input=document.getElementById("input");
+  var ul=document.getElementById("ul-con");
+  
+
+  function add(){
+    var listitem=document.createElement("li")
+    listitem.innerHTML=input.value+"<button onclick='deletei(event)'>delete</button>";
+    ul.append(listitem);
+  }
+
+  function deletei(event){
+    event.target.parentElement.remove();
+  }
+</script>
+
+</body>
+</html>
