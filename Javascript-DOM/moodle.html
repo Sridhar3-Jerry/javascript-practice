@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Example</title>
+</head>
+<body>
+  <h1 id="header">Hello World</h1>
+  <p>This is the first paragraph.</p>
+  <p>This is the second paragraph.</p>
+  <p>Hii Chello!!</p>
+  <p>Ithu MuthuPandi Kottai</p>
+  <button id="changeText">Change Text</button>
+  <button class="btn">Show</button>
+  <button id="btn1">show para</button>
+
+  <script>
+    // Getting references to DOM nodes
+    const header = document.getElementById("header");
+    const paragraphs = document.querySelectorAll("p");
+    const button = document.getElementById("changeText");
+    const btn= document.getElementsByClassName("btn");
+    const btn1= document.getElementById("btn1");
+
+    // Manipulating DOM content
+    // button.addEventListener("click", () => {
+    //   header.textContent = "New Heading";
+    //   paragraphs.forEach((para, index) => {
+    //     para.textContent = `Paragraph ${index + 1} changed!`;
+    //   });
+    // });
+
+    btn[0].addEventListener('click',()=>{
+        alert(header.textContent);
+    });
+
+    btn1.addEventListener('click',()=>{
+        paragraphs.forEach(
+            console.log(paragraphs[1].textContent)
+        );
+    });
+   
+  </script>
+</body>
+</html>

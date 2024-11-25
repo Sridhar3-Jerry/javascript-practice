@@ -1,5 +1,4 @@
-// LCM SUM
-
+// GCD SUM 
 let a=10;
 let b=20;
 let c=0;
@@ -14,12 +13,10 @@ for(i=2;i<=c;i++){
         var d=i;
     }
 }
-let mul=a*b;
 if(d>=2){
-    var ans=mul/a;
-    console.log(ans);
+    console.log(d);
 }
 else{
-    ans=mul;
-    console.log(ans);
+    console.log("There is no GCD");
 }
+

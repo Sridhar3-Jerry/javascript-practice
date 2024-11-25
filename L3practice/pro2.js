@@ -15,4 +15,4 @@ function isPrime(a){
         return true;
     }
 }
-console.log(isPrime(169))
+console.log(isPrime(169));
